@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment 5</title>
+</head>
+<body>
+    <h1 align="center"><b>Student Registration Form</b></h1>
+    <hr>
+    <form action="POST">
+        <label for="name">Full Name</label>
+        <input type="text" name="name" id="name" placeholder="Enter Full Name">
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="text" name="email" id="email" placeholder="Enter Email">
+        <br><br>
+
+        <label for="password">Password:</label>
+        <input type="text" id="password" placeholder="Enter Password">
+        <br><br>
+
+        <label for="gender">Gender:</label>
+        <input type="radio" name="gender" id="gender" value="male">Male
+        <input type="radio" name="gender" id="gender" value="female">Female
+        <br><br>
+
+        <label for="Course">Course:</label>
+        <select name="course" id="course">
+            <option value="">--Select Course--</option>
+            <option value="cse">CSE</option>
+            <option value="cse ds">CSE DS</option>
+            <option value="cse ai-ml">CSE AI-ML</option>
+            <option value="ece">ECE</option>
+            <option value="ee">EE</option>
+        </select>
+        <br><br>
+
+        <label for="number">Content No: +91</label>
+        <input type="number" name="id" id="id" placeholder="Enter phone number">
+        <br><br>
+
+        <label for="text">Address:</label>
+        <textarea name="text" id="id" placeholder="Enter Your Address...."></textarea>
+        <br><br>
+
+        <button type="submit">Register</button>
+        <button type="reset">Clear</button>
+        <hr>
+
+        <p align="center">&copy; 2025 Student Registration Portal</p>
+    </form>
+</body>
+</html>
